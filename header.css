@@ -2,4 +2,11 @@ header{
     grid-column: 1/4;
     grid-row: 1/2;
     background-color: #ff80b0;
+    
 }
+ .modo-flex{
+     display: flex;
+     justify-content: center;
+     align-self: center;
+     align-items: center;
+ }
