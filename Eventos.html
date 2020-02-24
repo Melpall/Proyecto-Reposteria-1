@@ -5,22 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="eventos.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="aside.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
-    <h1 class="eventos"><i>Eventos Especiales</i></h1>
-    <div class="modo-flex">
-        <div><i><p>Novios</p> </i>
-        <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\a45f99640d2c88d5fa3662b509b93846--golden-wedding-anniversary-th-anniversary.jpg" alt="">
-        <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\cat-wedding-cake-topper-funny-uk-cora-themed-boss-for-lover-shaped-and-mouth-eating.jpg" alt=""></div>
-        <div><i><p>Día de la Madre</p> </i>
-        <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\feliz-dia-mama.jpg" alt="">   
-        <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\01a48a20fc436c63798039353f1a52f4.jpg" alt=""></div>
-        <div><i><p>Día del Padre</p> </i>
-        <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\images (23).jpeg" alt=""></div>
-        <div><i><p>Navidad</p></i>
-        <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\c5b071acc80a7cf169deec026323d3a4.jpg" alt="">
-        <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\feliz-dia-mama.jpg" alt="">
-        <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\c301b4da141091a37248ea461146b1d4.jpg" alt=""></div>
-    </div>
+    <style>
+        .modo-grid{
+            display: grid;
+            grid-template-columns: 250px 1fr 250px;
+            grid-template-rows: repeat(4,minmax(300px,auto));
+            gap: 5px;
+        }
+        .modo-grid>div{
+            border: white solid 1px;
+            background-color: tomato;
+        }
+    </style>
+
+    <div class="modo-grid">
+        <header> 
+           <h1><img class="modo-flex" src="michi banner.png" alt=""></h1>
+           
+        </header>
+
+
+         <nav>
+            <ul class="menu">
+                <p> <a href="file:///C:/Users/Alumno/Desktop/Proyecto-Reposteria1/Index.html">Inicio</a></p>
+                <p> <a href="Noticias.html" target="_blank">Noticias</a></p>
+                <p> <a href="Productos.html" target="_blank">Productos</a></p>
+                <p> <a href="Eventos.html" target="_blank">Eventos especiales</a></p>
+              
+            </ul>
+        </nav>
+         <section>
+             <article>
+                <div> <p class="eventos">Eventos especiales</p>
+                    <div> <h3>Novios</h3>
+                        <div class="modo-flex"><img src="novios 3.jpg" alt=""> <img src="novios 1.jpg" alt=""> <img src="novios 2.jpg" alt=""></div>
+                        
+                    </div>
+                    <div> <h3>Navidad</h3>
+                        <div><img src="navidad 1.jpg" alt=""> <img src="navidad 2.jpg" alt=""> <img src="navidad 3.jpg" alt=""></div>
+                    </div>
+                    <div> <h3>Día de la Madre</h3>
+                        <div><img src="feliz-dia-mama.jpg" alt=""></div>
+                       
+                    </div>
+                    <div><h3>Día del Padre</h3>
+                        <div><img src="dia del padre.jpeg" alt=""></div>
+                        
+                    </div>
+                </div>
+             </article>
+                
+         </section>
+         <aside>aside</aside>
+         <footer>
+            <h2><i>Contáctanos</i></h2>
+            <a href="https://www.google.cl/maps/place/Orompello+730,+Concepci%C3%B3n,+B%C3%ADo+B%C3%ADo/@-36.8218644,-73.0484544,17z/data=!3m1!4b1!4m5!3m4!1s0x9669b5cdd7c06a6f:0x77121631560dde1d!8m2!3d-36.8218644!4d-73.0462657" target="_black">Orompello 730. Concepción</a>
+            <p>+56 41 2223344 - +56 41 5556677</p>
+            <p>Michipastelito@contacto.cl</p>
+            <h3><i>Horarios</i></h3>
+            <p>Lunes a viernes 9:00-19:00</p>
+            <p>Sábado 9:00-16:00</p>
+            <h4><i>Síguenos</i></h4>
+            <a href="#">Facebook</a>
+           <a href="#">Instagram</a>
+            
+         </footer>  
+     </div>
+    
 </body>
 </html>
