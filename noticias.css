@@ -1,0 +1,15 @@
+.modo-flex{
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 5px solid white;
+    justify-content: center;
+}
+.modo-flex > div{
+    width: 1000px;
+    min-height: 500px;
+    background-color: thistle;
+    border: white 3px solid;
+    box-sizing: border-box;
+}

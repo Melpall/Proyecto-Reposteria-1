@@ -2,4 +2,28 @@ section{
     grid-column: 2/3;
     grid-row: 2/4;
     background-color: #ffc7c7;
+    border: white solid 5px;
+    padding: 5px 5px 5px 5px;
+    
+
 }
+
+.izquierda{
+    float: left;
+}
+.derecha {
+    float: right;
+}
+.clear-izq{
+    clear: left;
+}
+.clear-der{
+    clear: right;
+}
+
+article{
+    text-align: center;
+    background-color: #ea728c;
+    font-size: 35px;
+}
+    

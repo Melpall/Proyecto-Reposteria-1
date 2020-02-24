@@ -2,7 +2,9 @@ header{
     grid-column: 1/4;
     grid-row: 1/2;
     background-color: #ff80b0;
-    
+    text-align: center;
+    width: 100%;
+  
 }
  .modo-flex{
      display: flex;
