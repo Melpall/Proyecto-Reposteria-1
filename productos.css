@@ -1,6 +1,6 @@
 .modo-flex10{
     width: auto;
-    height: 500px;
+    height: auto;
     flex-flow: row wrap;
     border: 3px solid white;
 
@@ -10,7 +10,7 @@
 }
 .modo-flex10 > div{
     width: 1200px;
-    min-height: 500px;
+    min-height: 400px;
     background-color: thistle;
     border: white 3px solid;
     box-sizing: border-box;
