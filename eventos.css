@@ -1,0 +1,32 @@
+.modo-flex{
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 5px solid white;
+   
+
+}
+.modo-flex > div{
+    width: 1200px;
+    min-height: 500px;
+    background-color: thistle;
+    border: white 3px solid;
+    box-sizing: border-box;
+    align-self: center;
+    text-align: center;
+}
+  
+    
+
+.eventos{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ea728c ;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+}

@@ -12,7 +12,7 @@ nav {
     box-sizing: border-box;
 
 }
-.menu li{
+.menu p{
     float: none;
     text-align: center;
     border-right-width: 0px;

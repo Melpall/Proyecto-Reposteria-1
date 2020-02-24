@@ -1,0 +1,58 @@
+.modo-flex10{
+    width: auto;
+    height: 500px;
+    flex-flow: row wrap;
+    border: 3px solid white;
+
+  
+   
+
+}
+.modo-flex10 > div{
+    width: 1200px;
+    min-height: 500px;
+    background-color: thistle;
+    border: white 3px solid;
+    box-sizing: border-box;
+    text-align: center;
+}
+  
+    
+
+.eventos{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ea728c ;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.boton{
+    background-color: #beebe9 ;
+    color: #347474;
+    padding: 10px 20px 10px 20px;
+    width: fit-content;
+    font-weight: bolder;
+    border-radius: 10px;
+    clear: both;;
+}
+
+.boton:hover{
+    background-color:#35495e ;
+}
+
+.menu{
+    background-color: #beebe9;
+    width: 1200px;
+    height: 100px;
+    color: #347474;
+    list-style: none;
+    border: white 1px solid;
+    font-size: 25px;
+    display: flex;
+
+}
