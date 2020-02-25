@@ -20,3 +20,18 @@
     align-items: center;
     font-size: 20px;
 }
+
+.boton{
+    background-color: #beebe9 ;
+    color: #347474;
+    padding: 10px 20px 10px 20px;
+    width: fit-content;
+    font-weight: bolder;
+    border-radius: 10px;
+    clear: both;;
+}
+
+.boton:hover{
+    background-color:#35495e ;
+}
+
