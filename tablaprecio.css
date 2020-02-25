@@ -1,0 +1,13 @@
+table, tr, th, td {
+    border:  #ff80b0 2px solid;
+    color: white;
+    width: 700px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.modo-flex1{
+    display: flex;
+     
+}
