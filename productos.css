@@ -10,7 +10,6 @@
 
 }
   
-
 .eventos{
     width: auto;
     height: 45px;
@@ -22,6 +21,7 @@
     align-items: center;
     font-size: 20px;
 }
+
 
 .boton{
     background-color: #beebe9 ;

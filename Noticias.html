@@ -5,35 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="noticias.css">
-</head>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="aside.css">
+    <link rel="stylesheet" href="footer.css">
 <body>
+    <style>
+        .modo-grid{
+            display: grid;
+            grid-template-columns: 250px 1fr 250px;
+            grid-template-rows: repeat(4,minmax(300px,auto));
+            gap: 5px;
+        }
+        .modo-grid>div{
+            border: white solid 1px;
+            background-color: tomato;
+        }
+    </style>
 
-    <h1 class="eventos"><i>Noticias</i></h1>
-    <nav>
-        <ul class="menu">
-            <p> <a href="file:///C:/Users/Alumno/Desktop/Proyecto-Reposteria1/Index.html">Inicio</a>
-                <span><a href="Noticias.html" target="_blank">Noticias</a></span>
-                <span><a href="Productos.html" target="_blank">Productos</a></span>
-                <span><a href="Eventos.html" target="_blank">Eventos especiales</a></span></p>
-          
-        </ul>
-    <div class="modo-flex">
-        <div>
-            <h3>Nuevos horarios de verano</h3>
-            <img class="izquierda" src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\noticia 1.png" alt="">
+    <div class="modo-grid">
+        <header> 
+           <h1><img class="modo-flex" src="michi banner.png" alt=""></h1>
+           
+        </header>
 
-            <p>Prolongamos las tardes de verano para disfrutes...
+
+         <nav>
+            <ul class="menu">
+                <p> <a href="file:///C:/Users/Alumno/Desktop/Proyecto-Reposteria1/Index.html">Inicio</a></p>
+                <p> <a href="Noticias.html" target="_blank">Noticias</a></p>
+                <p> <a href="Productos.html" target="_blank">Productos</a></p>
+                <p> <a href="Eventos.html" target="_blank">Eventos especiales</a></p>
+              
+            </ul>
+        </nav>
+         <section>
+             <article>
+                 <h1 class="eventos">Noticias</h1>
+                 <div>
+                    <p><img class="izquierda" src="noticias1.jpg" alt=""> 
+                        <h3><i>Celebra tu cumpleaños junto a nosotros</i></h3>
+                        <p><i>Desde ahora te ofrecemos el mejor servicio de banquetería para que celebres tu cumpleaños con tus diseños favoritos ...</i></p></p>
+                 </div>
+
+
                 <br>
                 <br>
-                <span class="boton"> Ver más<div class="contenido"></span> <span class="oculto"> de tus dulces con diseños favoritos. Te esperamos en Orompello 730 en nuestro nuevo horario Lu-Sáb 9:00 a 21:00</span></div>    
-             </p>
-
-        </div>
-        <div>Noticia 2</div>
-        <div>Noticia 3</div>
-        
-        </div>
-        
-    </div>
+                <br>
+                <br>
+                <hr>
+                <br>
+                  <p><img class="derecha" src="noticias 2.jpg" alt=""></p>
+                     <h3><i>Talleres de repostería creativa en Marzo</i></h3>
+                     <p><i> Técnicas y secretos de auténtica experta repostera para preparar tu tarta que ¡te llevarás al finalizar a casa! ¡no te pierdas este curso!...</i></p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <hr>
+                <br>
+                   <p><img class="izquierda" src="noticias 3.jpg" alt=""></p>
+                    <h3><i>¡Atención Veganos!</i></h3>
+                    <p><i>Desde ahora podrás disfrutar de nuestras delicias libre de ingredientes de origen animal y libre de glúten... </i></p>
+                <br>
+                <br>
+                <br>
+                <br>
+                
+             </article>
+                
+         </section>
+         <aside>aside</aside>
+         <footer>
+            <h2><i>Contáctanos</i></h2>
+            <a href="https://www.google.cl/maps/place/Orompello+730,+Concepci%C3%B3n,+B%C3%ADo+B%C3%ADo/@-36.8218644,-73.0484544,17z/data=!3m1!4b1!4m5!3m4!1s0x9669b5cdd7c06a6f:0x77121631560dde1d!8m2!3d-36.8218644!4d-73.0462657" target="_black">Orompello 730. Concepción</a>
+            <p>+56 41 2223344 - +56 41 5556677</p>
+            <p>Michipastelito@contacto.cl</p>
+            <h3><i>Horarios</i></h3>
+            <p>Lunes a viernes 9:00-19:00</p>
+            <p>Sábado 9:00-16:00</p>
+            <h4><i>Síguenos</i></h4>
+            <a href="#">Facebook</a>
+           <a href="#">Instagram</a>
+            
+         </footer>  
+     </div>
 </body>
 </html>

@@ -1,75 +1,36 @@
 .modo-flex{
-    width: auto;
-    height: 500px;
+     
     display: flex;
-    flex-flow: row wrap;
-    border: 5px solid white;
-    justify-content: center;
-}
-.modo-flex > div{
-    width: 1000px;
-    min-height: 500px;
-    background-color: thistle;
-    border: white 3px solid;
+    flex-direction: row;
     box-sizing: border-box;
+   
+    
 }
+  
 
-.menu{
-    background-color: #beebe9;
-    width: 1200px;
-    height: 100px;
-    color: #347474;
-    list-style: none;
-    border: white 1px solid;
-    font-size: 25px;
-    display: flex;
 
-}
 .eventos{
-    width: 1200px;
-    height: 200px;
+    width: auto;
+    height: 45px;
     display: flex;
     justify-content: space-around;
     background-color: #ea728c ;
     color: white;
     text-align: center;
     align-items: center;
-    font-size: 60px;
+    font-size: 20px;
 }
 
-.izquierda {
+.izquierda{
     float: left;
-
 }
 
-.boton{
-    background-color: #beebe9 ;
-    color: #347474;
-    padding: 10px 20px 10px 20px;
-    width: fit-content;
-    font-weight: bolder;
-    border-radius: 10px;
-    clear: both;;
-}
 
-.boton:active{
-    background-color:#35495e ;
+.clear-der{
+    clear: right;
 }
-  
-h1{
-    text-align: center;
-}
+ 
 
-.contenido{
-    visibility: hidden;
+.derecha{
+    float: right;
 }
-.oculto{
-    display: none;
-}
-
-div .contenido:active span{
-    display: block;
-    visibility: visible;
-
-}
-
