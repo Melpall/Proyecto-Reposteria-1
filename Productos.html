@@ -5,85 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="productos.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="aside.css">
+    <link rel="stylesheet" href="footer.css">
+
 </head>
 <body>
-        <h1 class="eventos"><i>Nuestros productos</i></h1>
-   
+    <style>
+        .modo-grid{
+            display: grid;
+            grid-template-columns: 250px 1fr 250px;
+            grid-template-rows: repeat(4,minmax(300px,auto));
+            gap: 5px;
+        }
+        .modo-grid>div{
+            border: white solid 1px;
+            background-color: tomato;
+        }
+    </style>
+
+    <div class="modo-grid">
+        <header> 
+           <h1><img class="modo-flex" src="michi banner.png" alt=""></h1>
+           
+        </header>
+
+
+         <nav>
+            <ul class="menu">
+                <p> <a href="file:///C:/Users/Alumno/Desktop/Proyecto-Reposteria1/Index.html">Inicio</a></p>
+                <p> <a href="Noticias.html" target="_blank">Noticias</a></p>
+                <p> <a href="Productos.html" target="_blank">Productos</a></p>
+                <p> <a href="Eventos.html" target="_blank">Eventos especiales</a></p>
+              
+            </ul>
+        </nav>
+         <section>
+             <article>
+                <div class="modo-flex10">
+                    <div><i><h1>Tortas</h1></i> 
+                        <img src="torta 1.jpg" alt=""> 
+                        <p>Torta Ice Cream 40 personas</p>
+                        <p>$29.990</p>
+                        <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
+                        <img src="torta 2.jpg" alt="">
+                        <p>Torta Pusheen 20 personas</p>
+                        <p>$18.990</p>
+                        <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
+                        <img src="torta 3.jpg" alt="">
+                        <p>Torta Gift bear 20 personas</p>
+                        <p>$18.990</p>}
+                        <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
+                        <img src="torta 4.jpg" alt="">
+                        <p>Torta Unicornio 15 personas</p>
+                        <p>$15.990</p>
+                        <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
+                        <img src="torta 5.jpg" alt="">
+                        <p>Torta Bears 20 personas</p>
+                        <p>$18.990</p>
+                        <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
+                    </div>
+                <div class="modo-flex10"><i><h1>Galletas</h1></i>
+                        <img src="galletas 1.jpg" alt="">
+                        <p>Galletas Pusheen 12 unidades</p>
+                        <p>$1990</p>
+                        <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
+                        <img src="galletas 2.png" alt="">
+                        <p>Galletas bears 12 unidades</p>
+                        <p>$1990</p>
+                        <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
+                        <img src="galletas 3.jpeg" alt="">
+                        <p>Galletas Heart 12 unidades</p>
+                        <p>$1990</p>
+                        <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
+                    </div>
+                
+                
+                <div class="modo-flex10"><i><h1>Donuts</h1></i>
+                        <img src="donuts 1.jpg" alt="">
+                        <p>Donuts Animals</p>
+                        <p>$990</p>
+                        <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
+                        <img src="donuts 2.jpg" alt="">
+                        <p>Donuts Unicornio</p>
+                        <p>$990</p>
+                        <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
+                </div>
+                <div><i><h1>Cupcakes</h1></i>
+                        <img src="cupcake 1.jpg" alt="">
+                        <p>Cupcake Unicornio</p>
+                        <p>$990</p>
+                        <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
+                        <img src="cupcake 2.jpg" alt="">
+                        <p>Cupcakes Faces</p>
+                        <p>$990</p>
+                        <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
+                        <img src="cupcake3.jpg" alt="">
+                        <p>Cupcakes Rabbits</p>
+                        <p>$990</p>
+                        <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
+                
+                </div>
+                </div>
+             </article>
+                
+         </section>
+         <aside>aside</aside>
+         <footer>
+            <h2><i>Contáctanos</i></h2>
+            <a href="https://www.google.cl/maps/place/Orompello+730,+Concepci%C3%B3n,+B%C3%ADo+B%C3%ADo/@-36.8218644,-73.0484544,17z/data=!3m1!4b1!4m5!3m4!1s0x9669b5cdd7c06a6f:0x77121631560dde1d!8m2!3d-36.8218644!4d-73.0462657" target="_black">Orompello 730. Concepción</a>
+            <p>+56 41 2223344 - +56 41 5556677</p>
+            <p>Michipastelito@contacto.cl</p>
+            <h3><i>Horarios</i></h3>
+            <p>Lunes a viernes 9:00-19:00</p>
+            <p>Sábado 9:00-16:00</p>
+            <h4><i>Síguenos</i></h4>
+            <a href="#">Facebook</a>
+           <a href="#">Instagram</a>
+            
+         </footer>  
+     </div>
     
-    <nav>
-        <ul class="menu">
-            <p> <a href="file:///C:/Users/Alumno/Desktop/Proyecto-Reposteria1/Index.html">Inicio</a>
-                <span><a href="Noticias.html" target="_blank">Noticias</a></span>
-                <span><a href="Productos.html" target="_blank">Productos</a></span>
-                <span><a href="Eventos.html" target="_blank">Eventos especiales</a></span></p>
-          
-        </ul>
-    </nav>
-
-    <div class="modo-flex10">
-        <div><i><h1>Tortas</h1></i> 
-            <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\torta 1.jpg" alt=""> 
-            <p>Torta Ice Cream 40 personas</p>
-            <p>$29.990</p>
-            <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
-            <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\torta 2.jpg" alt="">
-            <p>Torta Pusheen 20 personas</p>
-            <p>$18.990</p>
-            <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
-            <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\torta 3.jpg" alt="">
-            <p>Torta Gift bear 20 personas</p>
-            <p>$18.990</p>}
-            <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
-            <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\torta 4.jpg" alt="">
-            <p>Torta Unicornio 15 personas</p>
-            <p>$15.990</p>
-            <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
-            <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\torta 5.jpg" alt="">
-            <p>Torta Bears 20 personas</p>
-            <p>$18.990</p>
-            <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
-        </div>
-    <div class="modo-flex10"><i><h1>Galletas</h1></i>
-            <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\galletas 1.jpg" alt="">
-            <p>Galletas Pusheen 12 unidades</p>
-            <p>$1990</p>
-            <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
-            <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\galletas 2.png" alt="">
-            <p>Galletas bears 12 unidades</p>
-            <p>$1990</p>
-            <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
-            <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\galletas 3.jpeg" alt="">
-            <p>Galletas Heart 12 unidades</p>
-            <p>$1990</p>
-            <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
-        </div>
-
-
-    <div class="modo-flex10"><i><h1>Donuts</h1></i>
-            <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\donuts 1.jpg" alt="">
-            <p>Donuts Animals</p>
-            <p>$990</p>
-            <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
-            <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\donuts 2.jpg" alt="">
-            <p>Donuts Unicornio</p>
-            <p>$990</p>
-            <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
-    </div>
-    <div><i><h1>Cupcakes</h1></i>
-            <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\cupcake 1.jpg" alt="">
-            <p>Cupcake Unicornio</p>
-            <p>$990</p>
-            <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
-            <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\cupcake 2.jpg" alt="">
-            <p>Cupcakes Faces</p>
-            <p>$990</p>
-            <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
-            <img src="C:\Users\Alumno\Desktop\Proyecto-Reposteria1\cupcake3.jpg" alt="">
-            <p>Cupcakes Rabbits</p>
-            <p>$990</p>
-            <p><span class="boton"><a href="#" target="_blank">Comprar</a></span></p>
-
-    </div>
-    </div>
 </body>
 </html>

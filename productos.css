@@ -1,33 +1,26 @@
-.modo-flex10{
-    width: auto;
-    height: auto;
-    flex-flow: row wrap;
-    border: 3px solid white;
-   
 
-  
-   
 
-}
-.modo-flex10 > div{
-    width: 1200px;
-    min-height: 400px;
-    background-color: thistle;
-    border: white 3px solid;
+.modo-flex{
+     
+    display: flex;
+    flex-direction: row;
     box-sizing: border-box;
-    text-align: center;
+    
+
+
 }
+  
 
 .eventos{
-    width: 1200px;
-    height: 200px;
+    width: auto;
+    height: 45px;
     display: flex;
     justify-content: space-around;
     background-color: #ea728c ;
     color: white;
     text-align: center;
     align-items: center;
-    font-size: 60px;
+    font-size: 20px;
 }
 
 .boton{
@@ -43,19 +36,6 @@
 .boton:hover{
     background-color:#35495e ;
 }
-
-.menu{
-    background-color: #beebe9;
-    width: 1200px;
-    height: 100px;
-    color: #347474;
-    list-style: none;
-    border: white 1px solid;
-    font-size: 25px;
-    display: flex;
-
-}
-
 
 
 
